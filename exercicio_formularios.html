@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio de formulario</title>
+</head>
+<body>
+	<h1>Registro em nossa loja</h1>
+	<form name="exercicio" autocomplete="on">
+		<label for="Nome-de-usuário">Nome de usuário:</label><br>
+		<input type="text" placeholder="Ex. Carlos"><br><br>
+	
+		<label for="Email">Email:</label><br>
+		<input type="text" placeholder="Ex. Carlos@carlos.com"><br><br>
+
+		<label for="Idade">Idade:</label><br>
+		<input type="text" placeholder="Ex. 18"><br><br>
+
+		<label for="genero">Gênero:</label><br>
+		<input type="radio" name="genero" value="Macho" id="genero"><strong>Masculino</strong><br>
+        <input type="radio" name="genero" value="Feminino" id="genero"><strong>Feminino</strong><br><br>
+
+        <label for="recomendacao">Recomendado por:</label><br>
+        <select name="recomendacao" id="recomendacao">
+        	<option>Google</option>
+        	<option>Amigos</option>
+        	<option>sites</option>
+        	<option>Videos</option>
+        </select><br><br>
+
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea name="name" id="comentarios" cols="40" rows="8"></textarea><br><br>
+
+        <strong>Aceito termos e condiçoes</strong><br>
+		<input type="checkbox" name="accept"><br><br>
+
+		<input type="submit" value="Registrar">
+	</form>
+</body>
+</html>
