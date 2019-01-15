@@ -1,0 +1,21 @@
+{
+  "name": "curso",
+  "homepage": "https://github.com/ericksvasc/curso",
+  "authors": [
+    "ericksvasc <ericksvasc@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}
